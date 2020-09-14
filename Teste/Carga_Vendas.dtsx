@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="224"
-  DTS:VersionGUID="{C8DDBC0B-E5EB-4477-8AA1-7DA010F58821}">
+  DTS:VersionBuild="226"
+  DTS:VersionGUID="{F7FB59CA-AD5F-45FD-876D-D768713AECED}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -505,13 +505,13 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[monstro015.dinfo.com.br,24339.vendas.vendas]"
+      DTS:refId="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{70DDB282-502B-4094-A4DF-3C9A19DBC305}"
-      DTS:ObjectName="monstro015.dinfo.com.br,24339.vendas.vendas">
+      DTS:DTSID="{2D2F7CDE-A480-4EFD-BE36-1D512D19B2C7}"
+      DTS:ObjectName="FIN-DREW01\SQLEXPRESS.FIN-VENDAS">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=FIN-TULIO;Initial Catalog=DW_CONTROLE_DE_VENDAS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=FIN-DREW01\SQLEXPRESS;Initial Catalog=FIN-VENDAS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -1529,8 +1529,8 @@
               <connections>
                 <connection
                   refId="Package\ETL CSV HOTMART\Carregamento PROC_TEMP.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[monstro015.dinfo.com.br,24339.vendas.vendas]"
-                  connectionManagerRefId="Package.ConnectionManagers[monstro015.dinfo.com.br,24339.vendas.vendas]"
+                  connectionManagerID="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
+                  connectionManagerRefId="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -1722,25 +1722,25 @@
                       refId="Package\ETL CSV HOTMART\Carregamento PROC_TEMP.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_BRUTO_ORIGINAL]"
                       dataType="numeric"
                       name="VALOR_BRUTO_ORIGINAL"
-                      precision="25"
+                      precision="17"
                       scale="10" />
                     <externalMetadataColumn
                       refId="Package\ETL CSV HOTMART\Carregamento PROC_TEMP.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_BRUTO_REAL]"
                       dataType="numeric"
                       name="VALOR_BRUTO_REAL"
-                      precision="25"
+                      precision="17"
                       scale="10" />
                     <externalMetadataColumn
                       refId="Package\ETL CSV HOTMART\Carregamento PROC_TEMP.Inputs[Entrada de Destino OLE DB].ExternalColumns[TAXA_CAMBIO]"
                       dataType="numeric"
                       name="TAXA_CAMBIO"
-                      precision="20"
+                      precision="12"
                       scale="10" />
                     <externalMetadataColumn
                       refId="Package\ETL CSV HOTMART\Carregamento PROC_TEMP.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_LIQUIDO_REAL]"
                       dataType="numeric"
                       name="VALOR_LIQUIDO_REAL"
-                      precision="25"
+                      precision="17"
                       scale="10" />
                     <externalMetadataColumn
                       refId="Package\ETL CSV HOTMART\Carregamento PROC_TEMP.Inputs[Entrada de Destino OLE DB].ExternalColumns[FORMA_PAGAMENTO]"
@@ -1847,8 +1847,8 @@
               <connections>
                 <connection
                   refId="Package\ETL CSV HOTMART\Carregamento STATUS_TEMP.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[monstro015.dinfo.com.br,24339.vendas.vendas]"
-                  connectionManagerRefId="Package.ConnectionManagers[monstro015.dinfo.com.br,24339.vendas.vendas]"
+                  connectionManagerID="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
+                  connectionManagerRefId="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -2918,7 +2918,7 @@
     design-time-name="Package\ETL CSV HOTMART">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="232,42"
           Id="Package\ETL CSV HOTMART\Carregamento STATUS_TEMP"
@@ -2970,9 +2970,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-22.83447265625,10.87548828125,45.6689453125,9.7490234375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2994,9 +2992,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-22.83447265625,6.37548828125,45.6689453125,9.7490234375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3018,9 +3014,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-22.83447265625,11.12548828125,45.6689453125,9.7490234375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3042,9 +3036,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-22.83447265625,4.62548828125,45.6689453125,9.7490234375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3066,9 +3058,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-22.83447265625,10.12548828125,45.6689453125,9.7490234375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3102,9 +3092,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="77.91552734375,34.9090909090909,45.6689453125,9.7490234375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3138,9 +3126,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-106.33447265625,31.04329004329,45.6689453125,9.7490234375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
