@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Controle_Vendas", "Teste\Controle_Vendas.dtproj", "{99E8257F-825C-48DE-AA77-6A4D94BCC0B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E8257F-825C-48DE-AA77-6A4D94BCC0B4}.Development|Default.ActiveCfg = Development
+		{99E8257F-825C-48DE-AA77-6A4D94BCC0B4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED5857E9-48F9-45B0-BD4F-C8788549CE58}
+	EndGlobalSection
+EndGlobal
