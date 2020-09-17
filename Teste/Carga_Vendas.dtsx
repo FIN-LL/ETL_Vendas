@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="226"
-  DTS:VersionGUID="{F7FB59CA-AD5F-45FD-876D-D768713AECED}">
+  DTS:VersionBuild="231"
+  DTS:VersionGUID="{B6B6731D-0E32-495F-ACEE-9CED0A99EBD5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\tulio\Desktop\sales_history_20200910013141_603F94F85726757440489157008.csv">
+          DTS:ConnectionString="D:\Primeira Carga\Primeira Carga.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Produto"
-              DTS:DTSID="{01CA10ED-2087-40FA-A2A4-638361871A9C}"
+              DTS:DTSID="{D9C00578-FC0E-4E8D-A4F2-CE90A65DF31E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Produtor"
-              DTS:DTSID="{17D481B3-2329-472A-B04B-E8920E5DC02C}"
+              DTS:DTSID="{F4CF5CC9-EB4A-419E-B3DE-8710FC4C4BD7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -56,7 +56,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Documento do Produtor"
-              DTS:DTSID="{49ED841F-8784-418E-B60A-07205D2E8913}"
+              DTS:DTSID="{19905221-75A8-4542-8B29-1CB3839E12AE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Afiliado"
-              DTS:DTSID="{8457B48C-E835-4802-B8B4-06237AA781AB}"
+              DTS:DTSID="{7084CDBA-09CA-4118-A0D3-C00B8C314569}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Transação"
-              DTS:DTSID="{7B02A37A-BA8C-40AD-A508-94645E06F78C}"
+              DTS:DTSID="{F0BA0539-67E8-4AEF-827C-234E75094AC5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Meio de Pagamento"
-              DTS:DTSID="{26E56BE4-EEC5-4401-93C8-D247593A91E9}"
+              DTS:DTSID="{B8AEF84C-70C4-4826-A38D-30E02C341C13}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -91,7 +91,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Origem"
-              DTS:DTSID="{A185ABB6-FAE6-4600-8F08-D92E7A2C0608}"
+              DTS:DTSID="{44C83D71-08F5-4419-997A-A71896AE4E75}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -100,7 +100,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Moeda_Produto"
-              DTS:DTSID="{4FEB60CE-1384-4C3F-BA23-1F36D124F4AB}"
+              DTS:DTSID="{12E4211B-819D-44D0-A0CA-D4060334231E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -109,7 +109,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Preço do Produto"
-              DTS:DTSID="{5CCC924A-DD92-484D-A811-4316BB9D29D7}"
+              DTS:DTSID="{C2DA3A91-1F42-4102-A7EB-644B8C382336}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -118,7 +118,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Moeda_Oferta"
-              DTS:DTSID="{44A891E3-39C7-4789-A724-1D81351CC46C}"
+              DTS:DTSID="{6A7A9DAF-EED9-4C1B-925A-8C814F77AA2B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -127,7 +127,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Preço da Oferta"
-              DTS:DTSID="{37BC5465-53A6-4436-9508-0B27830AD2B0}"
+              DTS:DTSID="{DA752CCA-EB6D-49EA-A95B-231C5300733B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -136,7 +136,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Taxa de Câmbio"
-              DTS:DTSID="{D3978D36-75D9-45EA-B518-7F696AC26A72}"
+              DTS:DTSID="{DF684718-87E5-4373-B8D4-9D7A875213A8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -145,7 +145,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Moeda_Original"
-              DTS:DTSID="{0310FDAD-FF6B-41A9-ABD8-2DA8AE987BAA}"
+              DTS:DTSID="{ECED736C-D88F-4E33-B54C-6090D9D881AE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -154,7 +154,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Preço Original"
-              DTS:DTSID="{89B725A3-5FE0-4EBE-A805-44BC2422C9D4}"
+              DTS:DTSID="{3856029F-EDA7-45FF-8F7F-92F5FC2A5403}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -162,7 +162,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Número da Parcela"
-              DTS:DTSID="{9B56F88B-66AA-4CAF-9433-163DE5802374}"
+              DTS:DTSID="{9CD2F52E-8280-4EAC-A877-CE174AECBBFD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -170,7 +170,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="Recorrência"
-              DTS:DTSID="{F5B3FC1E-CEDC-4409-A488-20E6A7B1BC7F}"
+              DTS:DTSID="{BAD34D10-4EEB-4BF9-A1F7-7629FFB296B6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -178,7 +178,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="Data de Venda"
-              DTS:DTSID="{240853A2-CAB7-4B5D-809C-8E86565E42BC}"
+              DTS:DTSID="{E96B7778-882F-4607-9377-00983B088BA5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -186,7 +186,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="Data de Confirmação"
-              DTS:DTSID="{46E061EF-DD82-470A-9D02-3C9B317BDD24}"
+              DTS:DTSID="{74BCEDE9-A58D-4C38-96F2-FAE2438AB3AA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -195,7 +195,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Status"
-              DTS:DTSID="{01186987-6494-4B09-8827-3C57412E7271}"
+              DTS:DTSID="{2BD05358-52D1-4EB7-9DA8-A39ABE1E50C9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -204,7 +204,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Nome"
-              DTS:DTSID="{74E2923C-A03B-4CCB-A829-F59A6C2631C6}"
+              DTS:DTSID="{2898B551-EC2A-4940-B695-B52117DFEECA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -213,7 +213,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Documento"
-              DTS:DTSID="{4CAAF7FD-C55B-4CFC-8A70-81EC805E439F}"
+              DTS:DTSID="{DB43C992-AD24-4B9D-B196-F770B65FDBF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -222,7 +222,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Email"
-              DTS:DTSID="{F1E5D8E4-1D8C-4710-9C96-C07EC9698DCB}"
+              DTS:DTSID="{047FD89E-3E18-4334-8D6D-A82C3D6C4422}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -230,7 +230,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) DDD"
-              DTS:DTSID="{4F5ABEE5-81FC-4F68-912B-93FEED6C7F5E}"
+              DTS:DTSID="{0E9E0F23-2DE6-4AE1-973C-2690ADE7B45C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,7 +238,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Telefone"
-              DTS:DTSID="{D9CC0C38-0A0B-44E3-B7F6-5BA6D430AA31}"
+              DTS:DTSID="{596AD1B6-384C-4159-B0E8-3108B3BD6CCC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -246,7 +246,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) CEP"
-              DTS:DTSID="{C75817F6-15FE-4B38-AECA-FD1BF8BAEF49}"
+              DTS:DTSID="{2FB2E055-0E1D-48CC-8952-DCC3AC832339}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -255,7 +255,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Cidade"
-              DTS:DTSID="{C25B5B86-5234-43F6-A126-FF65C4F08D3D}"
+              DTS:DTSID="{4523EF56-0C78-4041-951C-309D944744A8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -264,7 +264,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Estado"
-              DTS:DTSID="{C443B626-F824-4585-B0C7-8D9340711D82}"
+              DTS:DTSID="{37F001C7-8E60-47F7-A1A6-E3CC1D1774BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -272,7 +272,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Bairro"
-              DTS:DTSID="{90BFA70A-7B59-4C79-99DE-B82CF0C3F5B8}"
+              DTS:DTSID="{7CAD53EB-574E-4D6D-8C27-1DF120831A4E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -281,7 +281,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="País"
-              DTS:DTSID="{029E5001-DD99-4CC2-8AC9-4BD5AF25DEA0}"
+              DTS:DTSID="{1FCE5B6E-3500-4663-B8BE-5DFCE902B40B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -290,7 +290,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Endereço"
-              DTS:DTSID="{B8F0E2B8-F4A4-420F-BCCF-A23895C5ECC6}"
+              DTS:DTSID="{BC631C74-3629-4CBF-BA2F-34CD93DDD488}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -298,7 +298,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Número"
-              DTS:DTSID="{030F73C9-5679-49CD-B57B-321FC82765B7}"
+              DTS:DTSID="{B8994BC4-A989-4EBA-86EA-0B141989F8F6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -307,7 +307,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Complemento"
-              DTS:DTSID="{FF57B2C0-8918-4885-B474-CB8FD26ECDAB}"
+              DTS:DTSID="{9B650050-A924-4626-90ED-B0B6C9D95D66}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -316,7 +316,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) chave"
-              DTS:DTSID="{259163B8-7AEB-4862-94D6-7C096A25A253}"
+              DTS:DTSID="{D9B20CDB-AB4B-44DD-9383-B22A6C1BF4B4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -324,7 +324,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Código do Produto"
-              DTS:DTSID="{FDFF3BC1-02AF-422E-9D6F-ADBEC8BBA004}"
+              DTS:DTSID="{3154951D-09B3-4099-86D3-98661734D826}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -332,7 +332,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Código da Afiliação"
-              DTS:DTSID="{12A00BAB-2A2F-4510-9EB1-4A10B8F68668}"
+              DTS:DTSID="{C64975A5-7F2D-42E3-8268-F4213E8E9439}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -341,7 +341,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Código de Oferta"
-              DTS:DTSID="{3A909CF7-9B2C-4837-BC64-C59AB22891CF}"
+              DTS:DTSID="{863850DE-B23F-4543-9290-C11D3EBE190D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -349,7 +349,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Origem de Checkout"
-              DTS:DTSID="{281D6EB7-181C-4F34-BC09-52E8C6F164B7}"
+              DTS:DTSID="{78CB0FE8-6F74-4941-B2BE-010274572606}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -358,7 +358,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Meio de Pagamento"
-              DTS:DTSID="{81C17B1F-0CAB-4AD3-8924-90C4D34BC754}"
+              DTS:DTSID="{7F8EE051-6BC7-419C-A017-C01E487791C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -367,7 +367,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Período Grátis"
-              DTS:DTSID="{0EA5D8A4-32C1-4DB3-817E-87BC7A5BA528}"
+              DTS:DTSID="{75A11E92-DD75-441D-831A-B42A7356B26B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -376,7 +376,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Tem co-produção"
-              DTS:DTSID="{EEA52D7B-21A5-454E-A8BD-5E764E7CEC8A}"
+              DTS:DTSID="{DBA1EF76-7137-41EB-8A3A-55981E2E74F1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -385,7 +385,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Origem da Comissão"
-              DTS:DTSID="{986D774A-28C9-4FC3-9170-649A6E713B59}"
+              DTS:DTSID="{C6403BF4-328C-4280-AF1C-83D36EAB2730}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -394,7 +394,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Preço Total"
-              DTS:DTSID="{62B22621-CB7D-4532-8A0C-90FF6B791721}"
+              DTS:DTSID="{407DFB63-0EE7-4884-9C5F-14A3543082C4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -403,7 +403,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Tipo pagamento oferta"
-              DTS:DTSID="{613FD90F-DBC4-4A8B-9447-14C264EF7A89}"
+              DTS:DTSID="{754E1D7E-4441-4A8B-BF59-CD15949DAAF4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -412,7 +412,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Taxa de Câmbio Real"
-              DTS:DTSID="{ACEEF490-D68C-4B84-81F7-4E8F1CBB87D8}"
+              DTS:DTSID="{4369415E-7193-4DB9-87BB-EB61C937BB7E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -421,7 +421,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Preço Total Convertido"
-              DTS:DTSID="{A8B61ECF-E162-461F-ABD6-25A0604D9CD7}"
+              DTS:DTSID="{77CFBD63-4483-4D64-BB84-7BC311BA364C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -429,7 +429,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Quantidade de itens"
-              DTS:DTSID="{3336C552-4CED-4960-A314-533AFFA0FC1B}"
+              DTS:DTSID="{69EB1DE8-3371-4971-B966-570533438631}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -438,7 +438,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Oferta de Upgrade"
-              DTS:DTSID="{78EF4B33-63DA-45A0-B31A-8BE4D1F1B0DE}"
+              DTS:DTSID="{25B161C3-A8A6-498C-A549-6CCE27940D0E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -446,7 +446,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Cupom"
-              DTS:DTSID="{9A2EE52D-BBB5-419D-AC62-5223EA6C2343}"
+              DTS:DTSID="{4FE1EA8B-2DF9-435B-8BBC-C66C0ABBBFF3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -455,7 +455,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Moeda_Comissão"
-              DTS:DTSID="{407CC6DE-BFCE-498B-B155-3232E3F75F66}"
+              DTS:DTSID="{0642308F-FCE5-44A2-A636-2371FBA9B463}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -464,7 +464,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Valor da Comissão Convertido"
-              DTS:DTSID="{BA6B8592-2618-490A-B46B-1980F20BB126}"
+              DTS:DTSID="{DF600EB5-5344-45CB-9090-B1FB0D1566A3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -473,7 +473,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Taxa de Câmbio da Comissão"
-              DTS:DTSID="{9816D97C-F514-4607-B118-98F5D00092D2}"
+              DTS:DTSID="{87463ADF-0BDA-4226-8BBA-EF58046EA695}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -481,7 +481,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Data Vencimento"
-              DTS:DTSID="{D1E507E5-8A19-44BD-911A-9759E978736C}"
+              DTS:DTSID="{24DE7FA4-F54C-4BD9-A5C2-50345B7696E7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -489,7 +489,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Instagram"
-              DTS:DTSID="{29FAF193-9518-4AAA-9995-F8E40B9A84D6}"
+              DTS:DTSID="{526A6DC5-041D-4F43-9E04-B2DE295E6D5B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -498,7 +498,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="(X) Origem da venda"
-              DTS:DTSID="{27F7A6FF-9020-4B62-9365-3880AA60D605}"
+              DTS:DTSID="{46E44640-385A-4ED4-A246-69A296B7A356}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -577,12 +577,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Transação]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Transação]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Transação]"
                       name="Transação"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -598,12 +598,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço_Produto]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Preço do Produto]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço_Produto]"
                       name="Preço_Produto"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -619,12 +619,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço_Oferta]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Preço da Oferta]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço_Oferta]"
                       name="Preço_Oferta"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -640,12 +640,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Taxa de Câmbio]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Taxa de Câmbio]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Taxa de Câmbio]"
                       name="Taxa de Câmbio"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -661,12 +661,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço_Original]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Preço Original]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço_Original]"
                       name="Preço_Original"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -682,11 +682,11 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Recorrência]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Recorrência]"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Recorrência]"
                       name="Recorrência"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -702,11 +702,11 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Data de Venda]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Data de Venda]"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Data de Venda]"
                       name="Data de Venda"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -722,11 +722,11 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Data de Confirmação]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Data de Confirmação]"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Data de Confirmação]"
                       name="Data de Confirmação"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -742,12 +742,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Status]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Status]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Status]"
                       name="Status"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -763,12 +763,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Nome]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Nome]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Nome]"
                       name="Nome"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -784,12 +784,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Documento]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Documento]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Documento]"
                       name="Documento"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -805,12 +805,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Email]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Email]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Email]"
                       name="Email"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -826,12 +826,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Estado]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Estado]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Estado]"
                       name="Estado"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -847,12 +847,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[País]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[País]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[País]"
                       name="País"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -868,12 +868,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Código_Oferta]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Código de Oferta]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Código_Oferta]"
                       name="Código_Oferta"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -889,12 +889,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço Total]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Preço Total]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço Total]"
                       name="Preço Total"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -910,12 +910,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Taxa de Câmbio Real]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Taxa de Câmbio Real]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Taxa de Câmbio Real]"
                       name="Taxa de Câmbio Real"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -931,12 +931,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço Total Convertido]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Preço Total Convertido]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Preço Total Convertido]"
                       name="Preço Total Convertido"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -952,12 +952,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Valor da Comissão Convertido]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Valor da Comissão Convertido]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Valor da Comissão Convertido]"
                       name="Valor da Comissão Convertido"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -973,12 +973,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Taxa de Câmbio da Comissão]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Taxa de Câmbio da Comissão]"
                       length="50"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Taxa de Câmbio da Comissão]"
                       name="Taxa de Câmbio da Comissão"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -994,12 +994,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Produto]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Produto]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Produto]"
                       name="Produto"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1015,12 +1015,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Produtor]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Produtor]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Produtor]"
                       name="Produtor"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1036,12 +1036,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Afiliado]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Afiliado]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Afiliado]"
                       name="Afiliado"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1057,12 +1057,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Produto]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Moeda_Produto]"
                       length="3"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Produto]"
                       name="Moeda_Produto"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1078,12 +1078,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Oferta]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Moeda_Oferta]"
                       length="3"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Oferta]"
                       name="Moeda_Oferta"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1099,12 +1099,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Original]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Moeda_Original]"
                       length="3"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Original]"
                       name="Moeda_Original"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1120,12 +1120,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Comissão]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Moeda_Comissão]"
                       length="3"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Moeda_Comissão]"
                       name="Moeda_Comissão"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -1141,12 +1141,12 @@
                       refId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Meio de Pagamento]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[Meio de Pagamento]"
                       length="255"
                       lineageId="Package\ETL CSV HOTMART\Carregamento do arquivo.Outputs[Saída de Origem de Arquivo Simples].Columns[Meio de Pagamento]"
                       name="Meio de Pagamento"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           dataType="System.Boolean"
