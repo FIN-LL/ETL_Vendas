@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="231"
-  DTS:VersionGUID="{B6B6731D-0E32-495F-ACEE-9CED0A99EBD5}">
+  DTS:VersionBuild="232"
+  DTS:VersionGUID="{E1F883E7-4CB4-4ECE-9CB9-F807A6A0BC93}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -505,13 +505,18 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
+      DTS:refId="Package.ConnectionManagers[Monstro/Vendas]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{2D2F7CDE-A480-4EFD-BE36-1D512D19B2C7}"
-      DTS:ObjectName="FIN-DREW01\SQLEXPRESS.FIN-VENDAS">
+      DTS:ObjectName="Monstro/Vendas">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=FIN-DREW01\SQLEXPRESS;Initial Catalog=FIN-VENDAS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=monstro015.dinfo.com.br,24339;User ID=vendas;Initial Catalog=vendas;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3REYQBMJGUOy5uNfKz/JqgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAAMb60Sy+MtuV9v9bAon/+fLvpjh3zBPx73RPWsGdnwgAAAAAOgAAAAAIAACAAAAD9ZVGbd1cZpfRkGNnZKrWai02MkhtaBoVLS0tRPW125TAAAAAarcnDvaAdSPJzvK5FqUiOY20nzkYz1SB46FQdl1pjkZJH/8ukHkWy+KEKxTntYqRAAAAAlCY4xs7XBtb4nRZh3R4mXjRWLjN7G0TGVdZmBwUyrvCe+dp/+w3PXhglR8NUmdNl37tWYHCUyWBFJYeUUsfunA</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -1529,8 +1534,8 @@
               <connections>
                 <connection
                   refId="Package\ETL CSV HOTMART\Carregamento PROC_TEMP.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
-                  connectionManagerRefId="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
+                  connectionManagerID="Package.ConnectionManagers[Monstro/Vendas]"
+                  connectionManagerRefId="Package.ConnectionManagers[Monstro/Vendas]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -1847,8 +1852,8 @@
               <connections>
                 <connection
                   refId="Package\ETL CSV HOTMART\Carregamento STATUS_TEMP.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
-                  connectionManagerRefId="Package.ConnectionManagers[FIN-DREW01\SQLEXPRESS.FIN-VENDAS]"
+                  connectionManagerID="Package.ConnectionManagers[Monstro/Vendas]"
+                  connectionManagerRefId="Package.ConnectionManagers[Monstro/Vendas]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>

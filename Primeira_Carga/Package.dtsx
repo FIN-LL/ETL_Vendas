@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="36"
-  DTS:VersionGUID="{FD9FEF18-162F-47C2-91DE-62281DE8EDC0}">
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{B9A35617-A0F8-4AC2-BF2C-B4287733B930}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -270,7 +270,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3REYQBMJGUOy5uNfKz/JqgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB71GvXiFFGFSqSBSAyqnOTvM/MmJv+hYU+wRoZ1T7ROwAAAAAOgAAAAAIAACAAAAAnC6XH6nw9jMi260JP+HJUTMhgy4i1Q70+iygtlLmjuDAAAACOPemn0aJLkzKOJQTouFqy5TA0RYIOMYPsNpMc6X6TGJXg1P8pLl/X5niY/q4S7LxAAAAAKhEQmqWThQpGT9+DOLB//ZgMD5lNskaID8VJFCLPkJ7imARLa30duHg2ebFb6yyzA7YGxOgjWTIZ5D1BCGcobA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3REYQBMJGUOy5uNfKz/JqgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABt+xdliVD/vnYn0fKsx+WsC1Z3uLcUvxnWawWG7065BAAAAAAOgAAAAAIAACAAAAA+RqQ/w4TDGsb8E0QaKuEcgSURhnlqJ03z6mWb0vRxSjAAAACuMOuRZ11uvdrjJWyT+34c62mutCZ2Zw9T/gHnfe9MMTOXVlr4F6ljOxFQKb/3DMxAAAAAEogznbOH444KKqgYX+ebkt0+Z9+bBM8RCTEwurtbZ6O3q6k5Eto09xBJjBLtv+ooA8fPy+BZw4cKhiozQFQyTw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2534,15 +2534,15 @@
         <NodeLayout
           Size="171,42"
           Id="Package\Controle de Vendas"
-          TopLeft="508,37" />
+          TopLeft="156,115" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Controle Hotmart"
+          TopLeft="168,188" />
         <NodeLayout
           Size="108,42"
           Id="Package\Status"
           TopLeft="184,41" />
-        <NodeLayout
-          Size="160,42"
-          Id="Package\Controle Hotmart"
-          TopLeft="242,141" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -2550,7 +2550,7 @@
     design-time-name="Package\Controle de Vendas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="153,42"
           Id="Package\Controle de Vendas\Destino OLE DB"
@@ -2582,7 +2582,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2604,7 +2606,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2629,6 +2633,14 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="185,42"
+          Id="Package\Status\Conversão de Dados 1"
+          TopLeft="428,193" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Status\Origem do Excel"
+          TopLeft="170,21" />
+        <NodeLayout
           Size="153,42"
           Id="Package\Status\Destino OLE DB"
           TopLeft="217,277" />
@@ -2636,36 +2648,32 @@
           Size="156,42"
           Id="Package\Status\Coluna Derivada"
           TopLeft="311,108" />
-        <NodeLayout
-          Size="185,42"
-          Id="Package\Status\Conversão de Dados 1"
-          TopLeft="428,193" />
         <EdgeLayout
-          Id="Package\Status.Paths[Saída de Coluna Derivada]"
-          TopLeft="389,150">
+          Id="Package\Status.Paths[Saída de Origem do Excel]"
+          TopLeft="248,63">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="131.5,43"
+              EndConnector="141,45"
               Start="0,0"
-              End="131.5,35.5">
+              End="141,37.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.5" />
+                    End="0,18.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17.5"
-                    Point2="0,21.5"
-                    Point3="4,21.5" />
+                    Point1="0,18.5"
+                    Point2="0,22.5"
+                    Point3="4,22.5" />
                   <mssgle:LineSegment
-                    End="127.5,21.5" />
+                    End="137,22.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="127.5,21.5"
-                    Point2="131.5,21.5"
-                    Point3="131.5,25.5" />
+                    Point1="137,22.5"
+                    Point2="141,22.5"
+                    Point3="141,26.5" />
                   <mssgle:LineSegment
-                    End="131.5,35.5" />
+                    End="141,37.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2708,36 +2716,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Status\Origem do Excel"
-          TopLeft="170,21" />
         <EdgeLayout
-          Id="Package\Status.Paths[Saída de Origem do Excel]"
-          TopLeft="248,63">
+          Id="Package\Status.Paths[Saída de Coluna Derivada]"
+          TopLeft="389,150">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="141,45"
+              EndConnector="131.5,43"
               Start="0,0"
-              End="141,37.5">
+              End="131.5,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.5" />
+                    End="0,17.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,18.5"
-                    Point2="0,22.5"
-                    Point3="4,22.5" />
+                    Point1="0,17.5"
+                    Point2="0,21.5"
+                    Point3="4,21.5" />
                   <mssgle:LineSegment
-                    End="137,22.5" />
+                    End="127.5,21.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="137,22.5"
-                    Point2="141,22.5"
-                    Point3="141,26.5" />
+                    Point1="127.5,21.5"
+                    Point2="131.5,21.5"
+                    Point3="131.5,25.5" />
                   <mssgle:LineSegment
-                    End="141,37.5" />
+                    End="131.5,35.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2750,7 +2754,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Status\Destino OLE DB">
+    design-time-name="Package\Status\Origem do Excel">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2763,7 +2767,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Status\Origem do Excel">
+    design-time-name="Package\Status\Destino OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
