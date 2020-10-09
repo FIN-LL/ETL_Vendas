@@ -11,11 +11,21 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="66"
-  DTS:VersionGUID="{ECE5DE45-C96C-4493-B5A3-88D63734FFE3}">
+  DTS:VersionBuild="105"
+  DTS:VersionGUID="{70DD767C-5F2E-448C-AF12-632AE3FD3C93}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Controle de Vendas]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{E8D42D65-BCF6-4B74-82E8-0AB9A062B21B}"
+      DTS:ObjectName="Controle de Vendas">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\Projetos\Leadlovers\Concluidos\Controle de Vendas em SQL\Final\Primeira Carga\Controle de vendas\Controle de Vendas (Versão sem anuais).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[CSV Controle de Vendas]"
       DTS:CreationName="FLATFILE"
@@ -242,61 +252,21 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{9908D4D7-48E2-414C-831A-9A81FA037FE3}"
+      DTS:DTSID="{010A3F72-8D87-42D7-A095-ED5BE3AD5236}"
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Primeira Carga\Controle de vendas\Controle de Vendas.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\Projetos\Leadlovers\Concluidos\Controle de Vendas em SQL\Final\Primeira Carga\Controle transações Hotmart\Controle Hotmart (Geral).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{D9E560B6-0973-474A-974A-B880E969F7E3}"
+      DTS:DTSID="{BA65A32C-D88E-42BA-8B9B-0AAC60045660}"
       DTS:ObjectName="Excel Connection Manager 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\Projetos\Leadlovers\Abertos\Controle de Vendas em SQL\Primeira Carga\Controle de vendas\Controle de Vendas (Versão sem anuais).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{53306409-1104-4306-B895-7325CD49652F}"
-      DTS:ObjectName="Excel Connection Manager 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\Projetos\Leadlovers\Abertos\Controle de Vendas em SQL\Primeira Carga\Controle de vendas\Controle de Vendas (Versão sem combos).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 3]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{D456D115-F032-42CA-93D7-E8E63A91E1EF}"
-      DTS:ObjectName="Excel Connection Manager 3">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\Projetos\Leadlovers\Abertos\Controle de Vendas em SQL\Primeira Carga\Controle transações Hotmart\Controle Hotmart (Geral).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{C0F59496-1948-408C-8555-3AF51FBE754B}"
-      DTS:ObjectName="Gerenciador de Conexões do Excel">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=D:\Primeira Carga\Controle de vendas\Controle de Vendas.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 1]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{CCE9F41E-3184-4FC7-B02F-4C9D3791B724}"
-      DTS:ObjectName="Gerenciador de Conexões do Excel 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Primeira Carga\Controle de vendas\Controle de Vendas.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\Projetos\Leadlovers\Concluidos\Controle de Vendas em SQL\Final\Primeira Carga\Controle de vendas\Controle de Vendas (Transacoes com taxa de cambio diferentes).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -310,7 +280,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhKDqoSRjJkmhdy/ge3vw+AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAO2+qrsDFH9RO7CfX8j5Y7LAcodEycbsaiv8VShusUkgAAAAAOgAAAAAIAACAAAABEUMvVaURpCzSif5Sg6OnDTn0I8CBkBVOh5cnmdy/8vTAAAABHk4RzEePDkRNTsvm1m+ok4IVrv4+i4yepbbUtpgqFOgAIp4AaH8APHJ/VFE5sLj5AAAAAb2ky26ZOMlNOaGu+arCYcWAA9XE3R9MKxndBVqpK8t3MLm5lRvdmDL/AmqyLsSNA2qvMawyXoh6YHrnYS9g9jA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhKDqoSRjJkmhdy/ge3vw+AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADpVyUICpn7YOKDnk8tj0CmZQdQISXCraWaPVrO4dA5swAAAAAOgAAAAAIAACAAAADwYWuBK05fScy2Tl57GuoKbtwa+McAqhR78Uq8gGWOnTAAAABXeLk4AmBNn11OCipfI/3u2rqalR/clPzIObivtWHtWWTua/tXBImAacpgRrXPx+FAAAAAK59iGujF/KOOA7SBWG5Kqvhgcuv9hsbVJ5tig/KLmiuMRqlaRBW/pENScLZiYBLPzaDB9uTESwu+pmoKac8yYg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -325,8 +295,18 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhKDqoSRjJkmhdy/ge3vw+AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB9mS+zolBtLwrBjuW/qCy/3R811cUnNG1KH/Zrh/26nAAAAAAOgAAAAAIAACAAAAA9Ri7VYPNa1RdXKSVn6lsJ7XLJQnDMsZfF+cU+4qfo6TAAAAAvyeNhbOA5Ovr5jL2iNe9CyMrVWbIKQLdUzVlTISuMMPFUvOB8fIZ9x+n10n3xoqxAAAAAlLMonX/ZsEDRmUghRZjYRvpdUPru+GrJjo3s4x4GvjwnGDG2zWJLBdyab7MV+uHQKSedm9h3o4Lwa6D8s4/H4g</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhKDqoSRjJkmhdy/ge3vw+AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAgMWF2Rj07GXFySIG85Ki4eZ8BLZSzlFx7/r82/TtBygAAAAAOgAAAAAIAACAAAAAAmn1hlRgWIpgyycYzOEuZxfw+fYLSWycnPHR++c/vPDAAAABtqUmY/7H9/3frg37MCguUHYv/CaLrgUOJuWyAUUYIW1i4OiN2Izv66Q1xFZrxOPhAAAAA/htVLPHP2e8SYrFHe5KnjzcQAqCuVDmkrFO+qE/udNIppgDTI2TIs/wLM5qW4cl0nBi6+bM1rNi+VhSkP1qGUQ</DTS:Password>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Status]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{93849A62-5D6E-4F12-B870-58AD47BF86BC}"
+      DTS:ObjectName="Status">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\Projetos\Leadlovers\Concluidos\Controle de Vendas em SQL\Final\Primeira Carga\Controle de vendas\Controle de Vendas (Versão sem combos).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -690,7 +670,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Controle de Vendas\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_VENDA]"
-                      dataType="dbTime"
+                      dataType="dbDate"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="IgnoreFailure"
                       lineageId="Package\Controle de Vendas\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_VENDA]"
@@ -710,7 +690,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Controle de Vendas\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_CONFIRMACAO]"
-                      dataType="dbTime"
+                      dataType="dbDate"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="IgnoreFailure"
                       lineageId="Package\Controle de Vendas\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_CONFIRMACAO]"
@@ -1021,13 +1001,13 @@
                       lineageId="Package\Controle de Vendas\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[FORMA_PAGAMENTO]" />
                     <inputColumn
                       refId="Package\Controle de Vendas\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[DATA_VENDA]"
-                      cachedDataType="dbTime"
+                      cachedDataType="dbDate"
                       cachedName="DATA_VENDA"
                       externalMetadataColumnId="Package\Controle de Vendas\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DATA_VENDA]"
                       lineageId="Package\Controle de Vendas\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_VENDA]" />
                     <inputColumn
                       refId="Package\Controle de Vendas\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[DATA_CONFIRMACAO]"
-                      cachedDataType="dbTime"
+                      cachedDataType="dbDate"
                       cachedName="DATA_CONFIRMACAO"
                       externalMetadataColumnId="Package\Controle de Vendas\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DATA_CONFIRMACAO]"
                       lineageId="Package\Controle de Vendas\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_CONFIRMACAO]" />
@@ -1112,7 +1092,7 @@
                       refId="Package\Controle de Vendas\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[TAXA_CAMBIO]"
                       dataType="numeric"
                       name="TAXA_CAMBIO"
-                      precision="12"
+                      precision="15"
                       scale="10" />
                     <externalMetadataColumn
                       refId="Package\Controle de Vendas\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_LIQUIDO_REAL]"
@@ -1238,8 +1218,8 @@
               <connections>
                 <connection
                   refId="Package\Controle de Vendas\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerID="Package.ConnectionManagers[Controle de Vendas]"
+                  connectionManagerRefId="Package.ConnectionManagers[Controle de Vendas]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1754,10 +1734,1419 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Controle Hotmart"
+      DTS:refId="Package\Controle de Vendas 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
       DTS:Disabled="True"
+      DTS:DTSID="{c3847c16-451b-4a54-aa64-c32c4d446b53}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Controle de Vendas 1"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Controle de Vendas 1\Conversão de Dados"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversão de Dados;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;0"
+              description="Conversão de Dados"
+              name="Conversão de Dados"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados]"
+                  name="Entrada de Conversão de Dados">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Produto]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Produto"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produto]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Produtor]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Produtor"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produtor]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Afiliado]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Afiliado"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Afiliado]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Transação]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Transação"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Transação]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Valor Bruto]"
+                      cachedDataType="r8"
+                      cachedName="Valor Bruto"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Valor Bruto em Real]"
+                      cachedDataType="r8"
+                      cachedName="Valor Bruto em Real"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto em Real]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Câmbio Valor Líquido]"
+                      cachedDataType="r8"
+                      cachedName="Câmbio Valor Líquido"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Câmbio Valor Líquido]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Valor Líquido em Real]"
+                      cachedDataType="r8"
+                      cachedName="Valor Líquido em Real"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Líquido em Real]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Recorrência]"
+                      cachedDataType="r8"
+                      cachedName="Recorrência"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Recorrência]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Forma de Pagamento]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Forma de Pagamento"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Forma de Pagamento]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Data de Venda]"
+                      cachedDataType="date"
+                      cachedName="Data de Venda"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Venda]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Data de Confirmação]"
+                      cachedDataType="date"
+                      cachedName="Data de Confirmação"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Confirmação]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Cliente]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Cliente"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Cliente]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Documento]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Documento"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Documento]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Email]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Email"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Email]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Estado]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Estado"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Estado]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[País]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="País"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[País]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados].Columns[Código da Oferta]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Código da Oferta"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Código da Oferta]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados]"
+                  exclusionGroup="1"
+                  name="Saída de Conversão de Dados"
+                  synchronousInputId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PRODUTO]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PRODUTO]"
+                      name="PRODUTO"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produto]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PRODUTOR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PRODUTOR]"
+                      name="PRODUTOR"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produtor]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[AFILIADO]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[AFILIADO]"
+                      name="AFILIADO"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Afiliado]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[TRANSACAO]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[TRANSACAO]"
+                      name="TRANSACAO"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Transação]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_BRUTO_ORIGINAL]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_BRUTO_ORIGINAL]"
+                      name="VALOR_BRUTO_ORIGINAL"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_BRUTO_REAL]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_BRUTO_REAL]"
+                      name="VALOR_BRUTO_REAL"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto em Real]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[TAXA_CAMBIO]"
+                      dataType="decimal"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[TAXA_CAMBIO]"
+                      name="TAXA_CAMBIO"
+                      scale="10"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Câmbio Valor Líquido]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_LIQUIDO_REAL]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_LIQUIDO_REAL]"
+                      name="VALOR_LIQUIDO_REAL"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Líquido em Real]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[RECORRENCIA]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[RECORRENCIA]"
+                      name="RECORRENCIA"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Recorrência]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[FORMA_PAGAMENTO]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[FORMA_PAGAMENTO]"
+                      name="FORMA_PAGAMENTO"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Forma de Pagamento]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_VENDA]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_VENDA]"
+                      name="DATA_VENDA"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Venda]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_CONFIRMACAO]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_CONFIRMACAO]"
+                      name="DATA_CONFIRMACAO"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Confirmação]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[CLIENTE]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[CLIENTE]"
+                      name="CLIENTE"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Cliente]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DOCUMENTO]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DOCUMENTO]"
+                      name="DOCUMENTO"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Documento]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[EMAIL]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[EMAIL]"
+                      name="EMAIL"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Email]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[ESTADO]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[ESTADO]"
+                      name="ESTADO"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Estado]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PAIS]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PAIS]"
+                      name="PAIS"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[País]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[CODIGO_OFERTA]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="IgnoreFailure"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[CODIGO_OFERTA]"
+                      name="CODIGO_OFERTA"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica a coluna de entrada usada como a origem dois dados para a conversão."
+                          name="SourceInputColumnLineageID">#{Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Código da Oferta]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Erro de Conversão de Dados]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Saída de Erro de Conversão de Dados"
+                  synchronousInputId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Erro de Conversão de Dados].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Erro de Conversão de Dados].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Erro de Conversão de Dados].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Erro de Conversão de Dados].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Controle de Vendas 1\Destino OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino OLE DB"
+              name="Destino OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="O tempo em segundos antes que um comando expire. Zero indica uma expiração infinita."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
+                  name="OpenRowset">[dbo].[CONTROLE_VENDAS]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica a variável que contém o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="O comando SQL a ser executado."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica a página de código de coluna a ser usada quando não há informações de página de código disponíveis a partir da fonte de dados."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forca o uso do valor da propriedade DefaultCodePage durante a descrição dos dados de caractere."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica o modo usado para acessar o banco de dados."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se os valores fornecidos para colunas de identidade serão copiados no destino. Se false, os valores para colunas de identidade serão gerados automaticamente no destino. Aplicável apenas se o carregamento rápido estiver ativado."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se as colunas que contêm null terão null inserido no destino. Se false, as colunas que contêm null terão seus valores padrão inseridos no destino. Aplicável apenas se o carregamento rápido estiver ativado."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica as opções a serem usadas com o carregamento rápido. Aplicável apenas se o carregamento rápido estiver ativado."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica quando confirmações são emitidas durante a inserção de dados. Um valor de 0 especifica que uma confirmação será emitida ao final da inserção de dados. Aplicável somente se o carregamento rápido estiver ativado."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Controle de Vendas 1\Destino OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[MONSTRO021.vendas.vendas]"
+                  connectionManagerRefId="Package.ConnectionManagers[MONSTRO021.vendas.vendas]"
+                  description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB]"
+                  errorOrTruncationOperation="Inserir"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de Destino OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[PRODUTO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="PRODUTO"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRODUTO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PRODUTO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[PRODUTOR]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="PRODUTOR"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRODUTOR]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PRODUTOR]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[AFILIADO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="AFILIADO"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[AFILIADO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[AFILIADO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[TRANSACAO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="TRANSACAO"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[TRANSACAO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[TRANSACAO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[VALOR_BRUTO_ORIGINAL]"
+                      cachedDataType="r4"
+                      cachedName="VALOR_BRUTO_ORIGINAL"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_BRUTO_ORIGINAL]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_BRUTO_ORIGINAL]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[VALOR_BRUTO_REAL]"
+                      cachedDataType="r4"
+                      cachedName="VALOR_BRUTO_REAL"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_BRUTO_REAL]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_BRUTO_REAL]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[TAXA_CAMBIO]"
+                      cachedDataType="decimal"
+                      cachedName="TAXA_CAMBIO"
+                      cachedScale="10"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[TAXA_CAMBIO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[TAXA_CAMBIO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[VALOR_LIQUIDO_REAL]"
+                      cachedDataType="r4"
+                      cachedName="VALOR_LIQUIDO_REAL"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_LIQUIDO_REAL]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[VALOR_LIQUIDO_REAL]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[RECORRENCIA]"
+                      cachedDataType="i4"
+                      cachedName="RECORRENCIA"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[RECORRENCIA]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[RECORRENCIA]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[FORMA_PAGAMENTO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="FORMA_PAGAMENTO"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[FORMA_PAGAMENTO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[FORMA_PAGAMENTO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[DATA_VENDA]"
+                      cachedDataType="dbDate"
+                      cachedName="DATA_VENDA"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DATA_VENDA]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_VENDA]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[DATA_CONFIRMACAO]"
+                      cachedDataType="dbDate"
+                      cachedName="DATA_CONFIRMACAO"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DATA_CONFIRMACAO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DATA_CONFIRMACAO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[CLIENTE]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="CLIENTE"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[CLIENTE]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[CLIENTE]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[DOCUMENTO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="DOCUMENTO"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DOCUMENTO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[DOCUMENTO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[EMAIL]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="EMAIL"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[EMAIL]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[EMAIL]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[ESTADO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ESTADO"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[ESTADO]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[ESTADO]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[PAIS]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="PAIS"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[PAIS]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[PAIS]" />
+                    <inputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].Columns[CODIGO_OFERTA]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="CODIGO_OFERTA"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[CODIGO_OFERTA]"
+                      lineageId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados].Columns[CODIGO_OFERTA]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRODUTO]"
+                      dataType="wstr"
+                      length="255"
+                      name="PRODUTO" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRODUTOR]"
+                      dataType="wstr"
+                      length="255"
+                      name="PRODUTOR" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[AFILIADO]"
+                      dataType="wstr"
+                      length="255"
+                      name="AFILIADO" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[TRANSACAO]"
+                      dataType="wstr"
+                      length="255"
+                      name="TRANSACAO" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_BRUTO_ORIGINAL]"
+                      dataType="numeric"
+                      name="VALOR_BRUTO_ORIGINAL"
+                      precision="17"
+                      scale="10" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_BRUTO_REAL]"
+                      dataType="numeric"
+                      name="VALOR_BRUTO_REAL"
+                      precision="17"
+                      scale="10" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[TAXA_CAMBIO]"
+                      dataType="numeric"
+                      name="TAXA_CAMBIO"
+                      precision="15"
+                      scale="10" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[VALOR_LIQUIDO_REAL]"
+                      dataType="numeric"
+                      name="VALOR_LIQUIDO_REAL"
+                      precision="17"
+                      scale="10" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[RECORRENCIA]"
+                      dataType="i4"
+                      name="RECORRENCIA" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[FORMA_PAGAMENTO]"
+                      dataType="wstr"
+                      length="255"
+                      name="FORMA_PAGAMENTO" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DATA_VENDA]"
+                      dataType="dbTimeStamp"
+                      name="DATA_VENDA" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DATA_CONFIRMACAO]"
+                      dataType="dbTimeStamp"
+                      name="DATA_CONFIRMACAO" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[CLIENTE]"
+                      dataType="wstr"
+                      length="255"
+                      name="CLIENTE" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[DOCUMENTO]"
+                      dataType="wstr"
+                      length="255"
+                      name="DOCUMENTO" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[EMAIL]"
+                      dataType="wstr"
+                      length="255"
+                      name="EMAIL" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[ESTADO]"
+                      dataType="wstr"
+                      length="255"
+                      name="ESTADO" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[PAIS]"
+                      dataType="wstr"
+                      length="255"
+                      name="PAIS" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB].ExternalColumns[CODIGO_OFERTA]"
+                      dataType="wstr"
+                      length="255"
+                      name="CODIGO_OFERTA" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Controle de Vendas 1\Destino OLE DB.Outputs[Saída de Erro de Destino OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Saída de Erro de Destino OLE DB"
+                  synchronousInputId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Controle de Vendas 1\Destino OLE DB.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Destino OLE DB.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Controle de Vendas 1\Destino OLE DB.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Controle de Vendas 1\Excel Source"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Excel Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">Planilha2$</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Controle de Vendas 1\Excel Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Produto]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produto]"
+                      name="Produto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produtor]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Produtor]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Produtor]"
+                      name="Produtor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Afiliado]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Afiliado]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Afiliado]"
+                      name="Afiliado"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Transação]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Transação]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Transação]"
+                      name="Transação"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Valor Bruto]"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto]"
+                      name="Valor Bruto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto em Real]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Valor Bruto em Real]"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Bruto em Real]"
+                      name="Valor Bruto em Real"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Câmbio Valor Líquido]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="IgnoreFailure"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Câmbio Valor Líquido]"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Câmbio Valor Líquido]"
+                      name="Câmbio Valor Líquido"
+                      truncationRowDisposition="IgnoreFailure" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Líquido em Real]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Valor Líquido em Real]"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Valor Líquido em Real]"
+                      name="Valor Líquido em Real"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Recorrência]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Recorrência]"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Recorrência]"
+                      name="Recorrência"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Forma de Pagamento]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Forma de Pagamento]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Forma de Pagamento]"
+                      name="Forma de Pagamento"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Venda]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Data de Venda]"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Venda]"
+                      name="Data de Venda"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Confirmação]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Data de Confirmação]"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Data de Confirmação]"
+                      name="Data de Confirmação"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Status]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Status]"
+                      name="Status"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Cliente]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Cliente]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Cliente]"
+                      name="Cliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Documento]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Documento]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Documento]"
+                      name="Documento"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Email]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Email]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Email]"
+                      name="Email"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Estado]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Estado]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Estado]"
+                      name="Estado"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[País]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[País]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[País]"
+                      name="País"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Código da Oferta]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Código da Oferta]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Código da Oferta]"
+                      name="Código da Oferta"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Plano]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Plano]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Plano]"
+                      name="Plano"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Periodicidade]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Periodicidade]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Periodicidade]"
+                      name="Periodicidade"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Tipo de Plano]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Tipo de Plano]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Tipo de Plano]"
+                      name="Tipo de Plano"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Tipo de Venda]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Tipo de Venda]"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].Columns[Tipo de Venda]"
+                      name="Tipo de Venda"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Produto]"
+                      dataType="wstr"
+                      length="255"
+                      name="Produto" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Produtor]"
+                      dataType="wstr"
+                      length="255"
+                      name="Produtor" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Afiliado]"
+                      dataType="wstr"
+                      length="255"
+                      name="Afiliado" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Transação]"
+                      dataType="wstr"
+                      length="255"
+                      name="Transação" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Valor Bruto]"
+                      dataType="r8"
+                      name="Valor Bruto" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Valor Bruto em Real]"
+                      dataType="r8"
+                      name="Valor Bruto em Real" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Câmbio Valor Líquido]"
+                      dataType="r8"
+                      name="Câmbio Valor Líquido" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Valor Líquido em Real]"
+                      dataType="r8"
+                      name="Valor Líquido em Real" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Recorrência]"
+                      dataType="r8"
+                      name="Recorrência" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Forma de Pagamento]"
+                      dataType="wstr"
+                      length="255"
+                      name="Forma de Pagamento" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Data de Venda]"
+                      dataType="date"
+                      name="Data de Venda" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Data de Confirmação]"
+                      dataType="date"
+                      name="Data de Confirmação" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Status]"
+                      dataType="wstr"
+                      length="255"
+                      name="Status" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Cliente]"
+                      dataType="wstr"
+                      length="255"
+                      name="Cliente" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Documento]"
+                      dataType="wstr"
+                      length="255"
+                      name="Documento" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Email]"
+                      dataType="wstr"
+                      length="255"
+                      name="Email" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Estado]"
+                      dataType="wstr"
+                      length="255"
+                      name="Estado" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[País]"
+                      dataType="wstr"
+                      length="255"
+                      name="País" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Código da Oferta]"
+                      dataType="wstr"
+                      length="255"
+                      name="Código da Oferta" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Plano]"
+                      dataType="wstr"
+                      length="255"
+                      name="Plano" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Periodicidade]"
+                      dataType="wstr"
+                      length="255"
+                      name="Periodicidade" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Tipo de Plano]"
+                      dataType="wstr"
+                      length="255"
+                      name="Tipo de Plano" />
+                    <externalMetadataColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output].ExternalColumns[Tipo de Venda]"
+                      dataType="wstr"
+                      length="255"
+                      name="Tipo de Venda" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Produto]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Produto]"
+                      name="Produto" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Produtor]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Produtor]"
+                      name="Produtor" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Afiliado]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Afiliado]"
+                      name="Afiliado" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Transação]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Transação]"
+                      name="Transação" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Valor Bruto]"
+                      dataType="r8"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Valor Bruto]"
+                      name="Valor Bruto" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Valor Bruto em Real]"
+                      dataType="r8"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Valor Bruto em Real]"
+                      name="Valor Bruto em Real" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Câmbio Valor Líquido]"
+                      dataType="r8"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Câmbio Valor Líquido]"
+                      name="Câmbio Valor Líquido" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Valor Líquido em Real]"
+                      dataType="r8"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Valor Líquido em Real]"
+                      name="Valor Líquido em Real" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Recorrência]"
+                      dataType="r8"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Recorrência]"
+                      name="Recorrência" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Forma de Pagamento]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Forma de Pagamento]"
+                      name="Forma de Pagamento" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Data de Venda]"
+                      dataType="date"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Data de Venda]"
+                      name="Data de Venda" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Data de Confirmação]"
+                      dataType="date"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Data de Confirmação]"
+                      name="Data de Confirmação" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Status]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Status]"
+                      name="Status" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Cliente]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Cliente]"
+                      name="Cliente" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Documento]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Documento]"
+                      name="Documento" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Email]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Email]"
+                      name="Email" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Estado]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Estado]"
+                      name="Estado" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[País]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[País]"
+                      name="País" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Código da Oferta]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Código da Oferta]"
+                      name="Código da Oferta" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Plano]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Plano]"
+                      name="Plano" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Periodicidade]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Periodicidade]"
+                      name="Periodicidade" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Tipo de Plano]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Tipo de Plano]"
+                      name="Tipo de Plano" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Tipo de Venda]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[Tipo de Venda]"
+                      name="Tipo de Venda" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Controle de Vendas 1.Paths[Excel Source Output]"
+              endId="Package\Controle de Vendas 1\Conversão de Dados.Inputs[Entrada de Conversão de Dados]"
+              name="Excel Source Output"
+              startId="Package\Controle de Vendas 1\Excel Source.Outputs[Excel Source Output]" />
+            <path
+              refId="Package\Controle de Vendas 1.Paths[Saída de Conversão de Dados]"
+              endId="Package\Controle de Vendas 1\Destino OLE DB.Inputs[Entrada de Destino OLE DB]"
+              name="Saída de Conversão de Dados"
+              startId="Package\Controle de Vendas 1\Conversão de Dados.Outputs[Saída de Conversão de Dados]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Controle Hotmart"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarefa Fluxo de Dados"
       DTS:DTSID="{38BD1A17-76CC-4544-9A5F-C638CF1F2831}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2024,11 +3413,11 @@
                       refId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[VALOR_DOLAR]"
                       dataType="decimal"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       lineageId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[VALOR_DOLAR]"
                       name="VALOR_DOLAR"
                       scale="10"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           containsID="true"
@@ -2066,11 +3455,11 @@
                       refId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[CAMBIO]"
                       dataType="decimal"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       lineageId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[CAMBIO]"
                       name="CAMBIO"
                       scale="10"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="IgnoreFailure">
                       <properties>
                         <property
                           containsID="true"
@@ -2164,13 +3553,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Recebido]} == 0 ? #{Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Debitado]} : #{Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Recebido]}</property>
+                          name="Expression">#{Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Recebido]} == 0 ? -#{Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Debitado]} : #{Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Recebido]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">Recebido == 0 ? Debitado : Recebido</property>
+                          name="FriendlyExpression">Recebido == 0 ? -Debitado : Recebido</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -2225,6 +3614,81 @@
               </outputs>
             </component>
             <component
+              refId="Package\Controle Hotmart\Derived Column 1"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Controle Hotmart\Derived Column 1.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Controle Hotmart\Derived Column 1.Inputs[Derived Column Input].Columns[VALOR_DOLAR]"
+                      cachedDataType="decimal"
+                      cachedName="VALOR_DOLAR"
+                      cachedScale="10"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[VALOR_DOLAR]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[VALOR_DOLAR]} / 100</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">VALOR_DOLAR / 100</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Controle Hotmart\Derived Column 1.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Controle Hotmart\Derived Column 1.Inputs[Derived Column Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Controle Hotmart\Derived Column 1.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Controle Hotmart\Derived Column 1.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Controle Hotmart\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Controle Hotmart\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Controle Hotmart\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Controle Hotmart\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Controle Hotmart\Excel Source"
               componentClassID="Microsoft.ExcelSource"
               contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -2240,7 +3704,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">Planilha1$</property>
+                  name="OpenRowset">'Principal 2019-2020$'</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -2267,8 +3731,8 @@
               <connections>
                 <connection
                   refId="Package\Controle Hotmart\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 3]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 3]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2339,20 +3803,20 @@
                       refId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Recebido]"
                       dataType="cy"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].ExternalColumns[Recebido]"
                       lineageId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Recebido]"
                       name="Recebido"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="IgnoreFailure" />
                     <outputColumn
                       refId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Debitado]"
                       dataType="cy"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].ExternalColumns[Debitado]"
                       lineageId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Debitado]"
                       name="Debitado"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="IgnoreFailure" />
                     <outputColumn
                       refId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Conta]"
                       dataType="wstr"
@@ -2427,12 +3891,12 @@
                       refId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Valor Dolar]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="IgnoreFailure"
                       externalMetadataColumnId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].ExternalColumns[Valor Dolar]"
                       length="255"
                       lineageId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Valor Dolar]"
                       name="Valor Dolar"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="IgnoreFailure" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2741,13 +4205,6 @@
                       externalMetadataColumnId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DEPARTAMENTO]"
                       lineageId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[DEPARTAMENTO]" />
                     <inputColumn
-                      refId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PROJETO]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="PROJETO"
-                      externalMetadataColumnId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PROJETO]"
-                      lineageId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[PROJETO]" />
-                    <inputColumn
                       refId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TRANSACAO]"
                       cachedDataType="wstr"
                       cachedLength="255"
@@ -2775,6 +4232,20 @@
                       cachedScale="10"
                       externalMetadataColumnId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CAMBIO]"
                       lineageId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[CAMBIO]" />
+                    <inputColumn
+                      refId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Projeto]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Projeto"
+                      externalMetadataColumnId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PRODUTO]"
+                      lineageId="Package\Controle Hotmart\Excel Source.Outputs[Excel Source Output].Columns[Projeto]" />
+                    <inputColumn
+                      refId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PROJETO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="PROJETO"
+                      externalMetadataColumnId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PROJETO]"
+                      lineageId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output].Columns[PROJETO]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2831,7 +4302,7 @@
                       refId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CAMBIO]"
                       dataType="numeric"
                       name="CAMBIO"
-                      precision="12"
+                      precision="15"
                       scale="10" />
                     <externalMetadataColumn
                       refId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[VALOR_DOLAR]"
@@ -2871,7 +4342,7 @@
           <paths>
             <path
               refId="Package\Controle Hotmart.Paths[Data Conversion Output]"
-              endId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              endId="Package\Controle Hotmart\Derived Column 1.Inputs[Derived Column Input]"
               name="Data Conversion Output"
               startId="Package\Controle Hotmart\Data Conversion.Outputs[Data Conversion Output]" />
             <path
@@ -2879,6 +4350,11 @@
               endId="Package\Controle Hotmart\Data Conversion.Inputs[Data Conversion Input]"
               name="Derived Column Output"
               startId="Package\Controle Hotmart\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Controle Hotmart.Paths[Derived Column Output1]"
+              endId="Package\Controle Hotmart\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Controle Hotmart\Derived Column 1.Outputs[Derived Column Output]" />
             <path
               refId="Package\Controle Hotmart.Paths[Excel Source Output]"
               endId="Package\Controle Hotmart\Derived Column.Inputs[Derived Column Input]"
@@ -3301,8 +4777,8 @@
               <connections>
                 <connection
                   refId="Package\Status\Origem do Excel.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 2]"
+                  connectionManagerID="Package.ConnectionManagers[Status]"
+                  connectionManagerRefId="Package.ConnectionManagers[Status]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -3541,17 +5017,21 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="171,42"
+          Size="176,42"
           Id="Package\Controle de Vendas"
-          TopLeft="83,50" />
+          TopLeft="52,42" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Controle de Vendas 1"
+          TopLeft="422,92" />
         <NodeLayout
           Size="160,42"
           Id="Package\Controle Hotmart"
-          TopLeft="76,232.133333326446" />
+          TopLeft="78,232.133333326446" />
         <NodeLayout
           Size="122,42"
           Id="Package\Status"
-          TopLeft="93,141" />
+          TopLeft="73,120" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -3559,17 +5039,17 @@
     design-time-name="Package\Controle de Vendas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,42"
           Id="Package\Controle de Vendas\Destino OLE DB"
           TopLeft="293,306" />
         <NodeLayout
-          Size="176,41.6"
+          Size="176,42"
           Id="Package\Controle de Vendas\Conversão de Dados"
           TopLeft="283,137" />
         <NodeLayout
-          Size="144,41.6"
+          Size="144,42"
           Id="Package\Controle de Vendas\Excel Source"
           TopLeft="282,22" />
         <EdgeLayout
@@ -3591,7 +5071,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3625,7 +5107,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3658,48 +5142,171 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Controle Hotmart">
+    design-time-name="Package\Controle de Vendas 1">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="140,41.6"
-          Id="Package\Controle Hotmart\Excel Source"
-          TopLeft="359.166652394666,92.7333340703117" />
+          Size="153,42"
+          Id="Package\Controle de Vendas 1\Destino OLE DB"
+          TopLeft="293,306" />
         <NodeLayout
-          Size="156,41.6"
-          Id="Package\Controle Hotmart\Data Conversion"
-          TopLeft="333.333320087858,331.933335971303" />
+          Size="176,42"
+          Id="Package\Controle de Vendas 1\Conversão de Dados"
+          TopLeft="283,137" />
         <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Controle Hotmart\Derived Column"
-          TopLeft="342.499986390274,193.266668202612" />
+          Size="144,42"
+          Id="Package\Controle de Vendas 1\Excel Source"
+          TopLeft="282,22" />
         <EdgeLayout
-          Id="Package\Controle Hotmart.Paths[Excel Source Output]"
-          TopLeft="429.166652394666,134.333334070312">
+          Id="Package\Controle de Vendas 1.Paths[Saída de Conversão de Dados]"
+          TopLeft="370.25,179">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-10.2666660043925,58.9333341323004"
+              EndConnector="0,127"
               Start="0,0"
-              End="-10.2666660043925,51.4333341323004">
+              End="0,119.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.4666670661502" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.4666670661502"
-                    Point2="0,29.4666670661502"
-                    Point3="-4,29.4666670661502" />
+                    End="0,119.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Controle de Vendas 1.Paths[Excel Source Output]"
+          TopLeft="354,64">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="17,73"
+              Start="0,0"
+              End="17,65.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="-6.2666660043925,29.4666670661502" />
+                    End="0,32.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-6.2666660043925,29.4666670661502"
-                    Point2="-10.2666660043925,29.4666670661502"
-                    Point3="-10.2666660043925,33.4666670661502" />
+                    Point1="0,32.5"
+                    Point2="0,36.5"
+                    Point3="4,36.5" />
                   <mssgle:LineSegment
-                    End="-10.2666660043925,51.4333341323004" />
+                    End="13,36.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="13,36.5"
+                    Point2="17,36.5"
+                    Point3="17,40.5" />
+                  <mssgle:LineSegment
+                    End="17,65.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Controle de Vendas 1\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Controle Hotmart">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="167,42"
+          Id="Package\Controle Hotmart\Derived Column 1"
+          TopLeft="433,359" />
+        <NodeLayout
+          Size="140,42"
+          Id="Package\Controle Hotmart\Excel Source"
+          TopLeft="359.166652394666,91.7333340703117" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\Controle Hotmart\Derived Column"
+          TopLeft="343.499986390274,193.266668202612" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Controle Hotmart\Data Conversion"
+          TopLeft="330.333320087858,270.933335971303" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Controle Hotmart\OLE DB Destination"
+          TopLeft="435.833316014873,443.733336859809" />
+        <EdgeLayout
+          Id="Package\Controle Hotmart.Paths[Excel Source Output]"
+          TopLeft="429.166652394666,133.733334070312">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.16666600439203,59.5333341323003"
+              Start="0,0"
+              End="-9.16666600439203,52.0333341323003">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.7666670661502" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.7666670661502"
+                    Point2="0,29.7666670661502"
+                    Point3="-4,29.7666670661502" />
+                  <mssgle:LineSegment
+                    End="-5.16666600439203,29.7666670661502" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.16666600439203,29.7666670661502"
+                    Point2="-9.16666600439203,29.7666670661502"
+                    Point3="-9.16666600439203,33.7666670661502" />
+                  <mssgle:LineSegment
+                    End="-9.16666600439203,52.0333341323003" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Controle Hotmart.Paths[Derived Column Output1]"
+          TopLeft="520.416658007436,401">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42.733336859809"
+              Start="0,0"
+              End="0,35.233336859809">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.233336859809" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3710,58 +5317,64 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Controle Hotmart.Paths[Derived Column Output]"
-          TopLeft="415.116653239066,234.866668202612">
+          TopLeft="419.999986390274,235.266668202612">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,97.0666677686905"
+              EndConnector="-9.16666630241599,35.666667768691"
               Start="0,0"
-              End="0,89.5666677686905">
+              End="-9.16666630241599,28.166667768691">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,89.5666677686905" />
+                    End="0,13.8333338843455" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.8333338843455"
+                    Point2="0,17.8333338843455"
+                    Point3="-4,17.8333338843455" />
+                  <mssgle:LineSegment
+                    End="-5.16666630241599,17.8333338843455" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.16666630241599,17.8333338843455"
+                    Point2="-9.16666630241599,17.8333338843455"
+                    Point3="-9.16666630241599,21.8333338843455" />
+                  <mssgle:LineSegment
+                    End="-9.16666630241599,28.166667768691" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,36.7833338843452,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Controle Hotmart\OLE DB Destination"
-          TopLeft="435.833316014873,443.733336859809" />
         <EdgeLayout
           Id="Package\Controle Hotmart.Paths[Data Conversion Output]"
-          TopLeft="411.333320087858,373.533335971303">
+          TopLeft="410.833320087858,312.933335971303">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="110.099995927016,70.2000008885066"
+              EndConnector="105.666679912142,46.066664028697"
               Start="0,0"
-              End="110.099995927016,62.7000008885066">
+              End="105.666679912142,38.566664028697">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.1000004442533" />
+                    End="0,19.0333320143485" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.1000004442533"
-                    Point2="0,35.1000004442533"
-                    Point3="4,35.1000004442533" />
+                    Point1="0,19.0333320143485"
+                    Point2="0,23.0333320143485"
+                    Point3="4,23.0333320143485" />
                   <mssgle:LineSegment
-                    End="106.099995927016,35.1000004442533" />
+                    End="101.666679912142,23.0333320143485" />
                   <mssgle:CubicBezierSegment
-                    Point1="106.099995927016,35.1000004442533"
-                    Point2="110.099995927016,35.1000004442533"
-                    Point3="110.099995927016,39.1000004442533" />
+                    Point1="101.666679912142,23.0333320143485"
+                    Point2="105.666679912142,23.0333320143485"
+                    Point3="105.666679912142,27.0333320143485" />
                   <mssgle:LineSegment
-                    End="110.099995927016,62.7000008885066" />
+                    End="105.666679912142,38.566664028697" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3805,19 +5418,19 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="184.8,41.6"
+          Size="185,42"
           Id="Package\Status\Conversão de Dados 1"
           TopLeft="428,193" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,42"
           Id="Package\Status\Origem do Excel"
           TopLeft="170,21" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,42"
           Id="Package\Status\Destino OLE DB"
           TopLeft="217,277" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,42"
           Id="Package\Status\Coluna Derivada"
           TopLeft="311,108" />
         <EdgeLayout

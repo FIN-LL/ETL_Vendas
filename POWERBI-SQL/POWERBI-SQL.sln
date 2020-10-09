@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "POWERBI-SQL", "POWERBI-SQL\POWERBI-SQL.sqlproj", "{B4011DF5-7357-4568-A2B8-CEE5E0A68074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4011DF5-7357-4568-A2B8-CEE5E0A68074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4011DF5-7357-4568-A2B8-CEE5E0A68074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4011DF5-7357-4568-A2B8-CEE5E0A68074}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B4011DF5-7357-4568-A2B8-CEE5E0A68074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4011DF5-7357-4568-A2B8-CEE5E0A68074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4011DF5-7357-4568-A2B8-CEE5E0A68074}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ED8EF9F-AF77-4392-A8A9-E72A02785E86}
+	EndGlobalSection
+EndGlobal
