@@ -11,11 +11,31 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{3E57DDC3-0411-40B2-9060-0B7660BCABED}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{78B203B7-73F5-4433-81A3-D4D4EE2DB730}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Combo]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{D1F045C9-C0C9-4377-AD33-DDC3846ED53E}"
+      DTS:ObjectName="Combo">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\COMBO.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Comissão Diferenciada]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{E47C1F25-E910-45EA-8C98-9F03F9F733E2}"
+      DTS:ObjectName="Comissão Diferenciada">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\COMISSAO_DIFERENCIADA.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[CSV HOTMART 1]"
       DTS:CreationName="FLATFILE"
@@ -505,63 +525,13 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{D1F045C9-C0C9-4377-AD33-DDC3846ED53E}"
-      DTS:ObjectName="Excel Connection Manager">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\COMBO.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
+      DTS:refId="Package.ConnectionManagers[Horário Verão]"
       DTS:CreationName="EXCEL"
       DTS:DTSID="{D7E04203-FFA2-4130-B692-FC10B868481E}"
-      DTS:ObjectName="Excel Connection Manager 1">
+      DTS:ObjectName="Horário Verão">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\HOR_VERAO.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1 1]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{E47C1F25-E910-45EA-8C98-9F03F9F733E2}"
-      DTS:ObjectName="Excel Connection Manager 1 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\COMISSAO_DIFERENCIADA.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1 2]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{5084805C-42C1-405B-B606-205A32FF222B}"
-      DTS:ObjectName="Excel Connection Manager 1 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\TAXA_HOTMART.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{48D098D9-C362-4BCA-9306-DFB514EEC9CA}"
-      DTS:ObjectName="Excel Connection Manager 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\OFERTAS.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 3]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{B629A80A-786B-474C-A21F-34F02B8F8C35}"
-      DTS:ObjectName="Excel Connection Manager 3">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\PRODUTO_RELATIVO.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -575,8 +545,38 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhKDqoSRjJkmhdy/ge3vw+AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABlbcRINefgPU2nAnYFSG2eRM8KL1Ks2+oovMrzPiddpQAAAAAOgAAAAAIAACAAAAAXU7cmYABhTyE6iQRIY5icP9Zi6AsRh4GZTd6X5s4WpzAAAABBx/9q+h4oDXsrpYlWvpio9z6vC/e1NJ6aujPsXuuyvOM3uXQBIdOc1xeKglUJ0mtAAAAA/yU03k0Sd0YaGeq/lSU+5pY1jBJD411qJrNkSBMqXmj3aaJiRcaD3aM7qn2IR573TSitkDlCqSYQyjtk2BRwjw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhKDqoSRjJkmhdy/ge3vw+AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACTldyQ+MTtzK/dOL1K2YwWO4MV/4RnJvIBD+XtZQVdfQAAAAAOgAAAAAIAACAAAAAEL4dmKk1G9WSCzys/vKXDneX4NHw5wfwRUEJRs5IMfTAAAADCr6R/CeRZyOjl24boqI56GNa9YskgZYdlHcRuZ8Tbr62hgk7+FgVGasEsGRYaT15AAAAAcifgAY966KNlE6qOnYSORr12V3KqaVnjm3+zSC248qi/3GYTPCKsXcBz20dnym+WKcA9NUljXto05d/f+SBVTA</DTS:Password>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Ofertas]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{48D098D9-C362-4BCA-9306-DFB514EEC9CA}"
+      DTS:ObjectName="Ofertas">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\OFERTAS.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Produto Relativo]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{B629A80A-786B-474C-A21F-34F02B8F8C35}"
+      DTS:ObjectName="Produto Relativo">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\PRODUTO_RELATIVO.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Taxa Hotmart]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{5084805C-42C1-405B-B606-205A32FF222B}"
+      DTS:ObjectName="Taxa Hotmart">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\My Drive\PowerBi\SQL\TAXA_HOTMART.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -884,8 +884,8 @@
               <connections>
                 <connection
                   refId="Package\Carga Combo\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Combo]"
+                  connectionManagerRefId="Package.ConnectionManagers[Combo]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2014,8 +2014,8 @@
               <connections>
                 <connection
                   refId="Package\Carga Comissão Diferenciada\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1 1]"
+                  connectionManagerID="Package.ConnectionManagers[Comissão Diferenciada]"
+                  connectionManagerRefId="Package.ConnectionManagers[Comissão Diferenciada]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2905,8 +2905,8 @@
               <connections>
                 <connection
                   refId="Package\Carga Horário de Verão\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerID="Package.ConnectionManagers[Horário Verão]"
+                  connectionManagerRefId="Package.ConnectionManagers[Horário Verão]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3670,8 +3670,8 @@
               <connections>
                 <connection
                   refId="Package\Carga Ofertas\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 2]"
+                  connectionManagerID="Package.ConnectionManagers[Ofertas]"
+                  connectionManagerRefId="Package.ConnectionManagers[Ofertas]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4520,8 +4520,8 @@
               <connections>
                 <connection
                   refId="Package\Carga Produto Relativo\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 3]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 3]"
+                  connectionManagerID="Package.ConnectionManagers[Produto Relativo]"
+                  connectionManagerRefId="Package.ConnectionManagers[Produto Relativo]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -5234,8 +5234,8 @@
               <connections>
                 <connection
                   refId="Package\Carga Taxa Hotmart\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1 2]"
+                  connectionManagerID="Package.ConnectionManagers[Taxa Hotmart]"
+                  connectionManagerRefId="Package.ConnectionManagers[Taxa Hotmart]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
