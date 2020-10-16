@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="248"
-  DTS:VersionGUID="{E380B881-1B25-4440-BB0B-EF6FC9C39457}">
+  DTS:VersionBuild="254"
+  DTS:VersionGUID="{7571389B-8F29-452C-9046-601ED5BC0F25}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -515,7 +515,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuILGgHnegkupQ4dfnAK6TwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADXe8FcJ/UMIT5AP9IahqFFepI1f0AyZq0SkcL0UeQ/5wAAAAAOgAAAAAIAACAAAAASKPMQZZ0zP3jhNx6KDKWR5oqERuuYHc+i3LmGQ0AbyTAAAAADlP6xLVeRQ4VKPC6z9zs28rsSLW8KBL+mdkeAUz+rAQFXsYS1Ydi5LTEj7ThrRZxAAAAANov0KsHY6qpw9I5p8w2yf9aKLcUabwNa2VrxiNLfl7Wt8ymeDsrcLu7Gyvytkdd+BBA/Dp5GNbSMYA6pdH1Fsg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuILGgHnegkupQ4dfnAK6TwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABpeJgY+nRP88ZNeMWbt4w9MLxFG3HVk93hyHxCWzf6GQAAAAAOgAAAAAIAACAAAAAhDORVFzyFqsUzlwL4hG1Ertvf28zZ4nAL1FjvkuwAejAAAACTPtuiHhyo2YLp3XTQvCvpRo936KFWiEP9bLNZgQweAeBpjQcdvz/hXuSEG3HFAPtAAAAAYmIsQcOCifejg1YnGGx2tWpRrz3VtGbh2wdTeXQilQ0Mb9+5sgUNE+1xmadnM2JgedRK6dMt3B46EE4DY92HKw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2903,6 +2903,7 @@
       DTS:refId="Package\Tarefa Executar SQL"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
+      DTS:Disabled="True"
       DTS:DTSID="{D30D2DEA-3E4C-441B-9F32-5A3280033444}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -2946,33 +2947,21 @@
         <NodeLayout
           Size="182,42"
           Id="Package\Tarefa Executar SQL"
-          TopLeft="310,195" />
+          TopLeft="322,194" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
-          TopLeft="413.714289217579,134.235295565483">
+          TopLeft="413.35714460879,134.235295565483">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-12.714289217579,60.764704434517"
+              EndConnector="0,59.764704434517"
               Start="0,0"
-              End="-12.714289217579,53.264704434517">
+              End="0,52.264704434517">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.3823522172585" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.3823522172585"
-                    Point2="0,30.3823522172585"
-                    Point3="-4,30.3823522172585" />
-                  <mssgle:LineSegment
-                    End="-8.71428921757899,30.3823522172585" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-8.71428921757899,30.3823522172585"
-                    Point2="-12.714289217579,30.3823522172585"
-                    Point3="-12.714289217579,34.3823522172585" />
-                  <mssgle:LineSegment
-                    End="-12.714289217579,53.264704434517" />
+                    End="0,52.264704434517" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
